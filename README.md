@@ -1,5 +1,20 @@
 # service-ts
 
+## Project structure
+```
+├── src
+│   ├── controllers
+│   │   ├── ExampleController.ts
+│   │   └── index.ts
+│   ├── index.ts
+│   ├── routes
+│   │   ├── ExampleRoutes.ts
+│   │   └── index.ts
+│   └── services
+│       ├── ExampleService.ts
+│       └── index.ts
+└── tsconfig.json
+```
 ## Getting started
 
 Clone the repository:
