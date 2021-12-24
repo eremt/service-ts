@@ -6,13 +6,17 @@
 │   ├── controllers
 │   │   ├── ExampleController.ts
 │   │   └── index.ts
-│   ├── index.ts
 │   ├── routes
 │   │   ├── ExampleRoutes.ts
 │   │   └── index.ts
-│   └── services
-│       ├── ExampleService.ts
-│       └── index.ts
+│   ├── services
+│   │   ├── ExampleService.ts
+│   │   └── index.ts
+│   └── index.ts
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
 └── tsconfig.json
 ```
 ## Getting started
