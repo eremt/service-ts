@@ -13,6 +13,9 @@
 │   │   ├── ExampleService.ts
 │   │   └── index.ts
 │   └── index.ts
+├── docker-compose.yml
+├── Dockerfile
+├── .env.example
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
@@ -24,6 +27,11 @@
 Clone the repository:
 ```
 git clone git@github.com:eremt/service-ts.git your-project
+```
+
+Create the `.env` file:
+```
+cp .env.example .env
 ```
 
 Install dependencies:
@@ -39,8 +47,9 @@ sed -i 's/service-ts/your-project/g' *
 ## Development
 Start the development environment:
 ```
-npm run dev
+docker-compose up
 ```
+The server will be running on [http://0.0.0.0:3000](http://0.0.0.0:3000).
 
 ## Production
 Start the server in production:
