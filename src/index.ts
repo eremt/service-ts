@@ -7,7 +7,8 @@ app.use(bodyParser.json())
 import router from './routes'
 app.use(router)
 
-const { PORT, HOST } = process.env
+const PORT: number = (process.env.PORT as any) as number
+const HOST: string = process.env.HOST as string
 
 app.listen(PORT, HOST, () => {
   console.log(`API running on http://${HOST}:${PORT}`)
