@@ -23,7 +23,7 @@
 
 Clone the repository:
 ```
-git clone git@github.com:eremt/service-ts.git
+git clone git@github.com:eremt/service-ts.git your-project
 ```
 
 Install dependencies:
@@ -37,7 +37,13 @@ sed -i 's/service-ts/your-project/g' *
 ```
 
 ## Development
-Start the development server:
+Start the development environment:
 ```
 npm run dev
+```
+
+## Production
+Start the server in production:
+```
+npm run start
 ```
